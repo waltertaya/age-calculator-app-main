@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    margin: 1rem;
+    background-color: hsl(0, 0%, 94%);
+    margin-top: 8rem;
+    
+    
+  }
+  #attribution {
+    width: 100%;
+    max-width: 570px;
+    height: auto;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.5rem;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 100px;
+  }
+  #item p{
+    display: inline-block;
+    font-family: 'Hanken Grotesk', sans-serif;
+  }
+  .input {
+    height: 2.7rem;
+    width: 5rem;
+    border-radius: 10px;
+  }
+  .padd1 {
+    padding-left: 100px;
+  }
+  .padd2 {
+    padding-left: 70px;
+  }
+  #month , #year {
+    margin-left: 30px;
+  }
+  hr {
+    margin-top: 3rem;
+  }
+  button {
+    background-color: hsl(259, 100%, 65%);
+    height: 60px;
+    width: 60px;
+    border-radius: 90px;
+    position: absolute;
+    top: 16.6rem;
+    margin-left: 8.5rem;
+  }
+  img {
+    max-width: 25px;
+  }
+  button:hover {
+    background-color: hsl(0, 0%, 8%);
+  }
+  #calculate p{
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+  }
+  input {
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  @media screen and (min-width: 570px){
+    body {
+        /* margin: 2rem; */
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    #attribution {
+        width: 400px;
+        height: auto;
+        background-color: hsl(0, 0%, 100%);
+        padding: 1rem;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 100px;
+    }
+    .input {
+        height: 2.7rem;
+        width: 6rem;
+        border-radius: 10px;
+    }
+    hr {
+        margin-top: 3rem;
+    }
+    button {
+        background-color: hsl(259, 100%, 65%);
+        height: 60px;
+        width: 60px;
+        border-radius: 90px;
+        position: absolute;
+        top: 16.6rem;
+        margin-left: 10rem;
+    }
+    .padd1 {
+        padding-left: 110px;
+    }
+    .padd2 {
+        padding-left: 90px;
+    }
+    #month , #year {
+        margin-left: 40px;
+    }
+  }
