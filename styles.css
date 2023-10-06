@@ -75,7 +75,8 @@
         display: flex;
     }
     #attribution {
-        width: 500px;
+      width: 100%;
+        max-width: 500px;
         height: auto;
         background-color: hsl(0, 0%, 100%);
         padding: 1rem;
