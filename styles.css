@@ -5,9 +5,10 @@
     padding: 0;
   }
   body {
-    margin: 1rem;
+    /* margin: 1rem; */
     background-color: hsl(0, 0%, 94%);
-    margin-top: 8rem;
+    /* margin-top: 8rem; */
+    min-height: 100vh;
     
     
   }
